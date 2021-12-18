@@ -107,7 +107,7 @@ function App() {
             {
               massSuperheroJSON.map((Superhero) => 
                   <CardSuperhero picture={Superhero.picture} name={Superhero.name}  universe={Superhero.universe} alterEgo={Superhero.alterEgo}  
-                  occupation={Superhero.occupation}  friends={Superhero.friends} superPowers={Superhero.superPowers} info={Superhero.info}></CardSuperhero>
+                  occupation={Superhero.occupation}  friends={Superhero.friends} superPowers={Superhero.superPowers} info={Superhero.info} / >
               )
             }
           </Row>
